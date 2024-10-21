@@ -3,7 +3,9 @@
 
 ## Descripción del Proyecto
 
-Konecta Bank App es una aplicación web para la venta de productos financieros de un banco. Permite a los usuarios (administradores y asesores) gestionar ventas de productos, usuarios y otros datos relacionados con los servicios bancarios.
+Konecta Bank App es una aplicación web para la venta de productos financieros de un banco.
+Permite a los usuarios (administradores y asesores) gestionar ventas de productos,
+usuarios y otros datos relacionados con los servicios bancarios.
 
 ## Arquitectura
 
