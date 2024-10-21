@@ -1,5 +1,3 @@
-Entiendo que quieres un ejemplo similar para tu proyecto Konecta. Basándome en la información que has proporcionado, aquí tienes un ejemplo de cómo podría ser el README para tu proyecto:
-
 ```markdown
 # Konecta Bank App
 
