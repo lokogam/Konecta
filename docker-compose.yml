@@ -36,8 +36,8 @@ services:
       - "${BACKEND_PORT}:${BACKEND_PORT}"
     depends_on:
       - mysql
-    volumes:
-      - ./backend:/usr/src/app
+    # volumes:
+      # - ./backend:/usr/src/app
     networks:
       - bankapp_network
 
@@ -51,8 +51,8 @@ services:
       REACT_APP_API_URL: http://localhost:${BACKEND_PORT}
     ports:
       - "${FRONTEND_PORT}:${FRONTEND_PORT}"
-    volumes:
-      - ./frontend:/usr/src/app
+    # volumes:
+      # - ./frontend:/usr/src/app
     networks:
       - bankapp_network
 
