@@ -90,5 +90,3 @@ El proyecto utiliza Node.js para el backend y React.js para el frontend, elegido
 LinkedIn: [Duvan Gamboa](https://www.linkedin.com/in/duvan-gamboa-5193951b2/)
 Email: [duvangamboa8@gmail.com](mailto:duvangamboa8@gmail.com)  
 ```
-
-Este README proporciona una visión general del proyecto, instrucciones de instalación, información sobre el acceso y las características principales. Puedes ajustarlo según las especificidades de tu implementación y añadir secciones adicionales si lo consideras necesario, como una sección de "Desarrollo" con instrucciones para contribuir al proyecto, o una sección de "Pruebas" si has implementado tests automatizados.
