@@ -1,0 +1,98 @@
+proyecto-banco/
+├── backend/
+│   ├── src/
+│   │   ├── config/
+│   │   ├── controllers/
+│   │   ├── middlewares/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── services/
+│   │   └── app.js
+│   ├── tests/
+│   ├── .env
+│   ├── Dockerfile
+│   └── package.json
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── store/
+│   │   ├── styles/
+│   │   ├── utils/
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── .env
+│   ├── Dockerfile
+│   └── package.json
+├── docker-compose.yml
+└── README.md
+
+src/
+|-- assets/
+|   |-- images/
+|   |-- styles/
+|
+|-- components/
+|   |-- common/
+|   |   |-- Button.js
+|   |   |-- Input.js
+|   |   |-- Modal.js
+|   |-- layout/
+|   |   |-- Header.js
+|   |   |-- Footer.js
+|   |   |-- Sidebar.js
+|   |-- auth/
+|   |   |-- LoginForm.js
+|   |-- user/
+|   |   |-- UserList.js
+|   |   |-- UserForm.js
+|   |-- sales/
+|   |   |-- SaleList.js
+|   |   |-- SaleForm.js
+|
+|-- pages/
+|   |-- Login.js
+|   |-- Dashboard.js
+|   |-- UserManagement.js
+|   |-- SalesManagement.js
+|
+|-- contexts/
+|   |-- AuthContext.js
+|
+|-- hooks/
+|   |-- useAuth.js
+|   |-- useSales.js
+|
+|-- services/
+|   |-- api.js
+|   |-- auth.service.js
+|   |-- user.service.js
+|   |-- sale.service.js
+|
+|-- utils/
+|   |-- validators.js
+|   |-- formatters.js
+|
+|-- constants/
+|   |-- index.js
+|
+|-- App.js
+|-- index.js
+|-- routes.js
+
+
+docker-compose up -d 
+docker compose up -d --build
+docker exec -it bankapp_backend bash
+docker exec -it bankapp_frontend bash
+
+docker-compose run frontend sh
+
+password123
+
+
+
+
+
